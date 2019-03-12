@@ -12,11 +12,7 @@ zuul:
     security-server:
       path: /oauth/**
       serviceId: OAUTH-SERVER
-      stripPrefix: false
-    ms-redsalud-cargacitas-i1:
-      path: /loadcsv/v1/**
-      serviceId: MS-CARGACITAS-I1
-      stripPrefix: false
+      stripPrefix: false   
     ratelimit:
       enabled: false
       repository: IN_MEMORY
