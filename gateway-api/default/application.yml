@@ -12,7 +12,11 @@ zuul:
     security-server:
       path: /oauth/**
       serviceId: OAUTH-SERVER
-      stripPrefix: false   
+      stripPrefix: false
+    ms-coosalud-visita:
+      path: /ms-coosalud-visita/v1/**
+      serviceId: MS-COOSALUD-VISITA
+      stripPrefix: false
     ratelimit:
       enabled: false
       repository: IN_MEMORY
