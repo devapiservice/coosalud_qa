@@ -17,6 +17,10 @@ zuul:
       path: /ms-coosalud-visita/v1/**
       serviceId: MS-COOSALUD-VISITA
       stripPrefix: false
+    ms-coosalud-persona:
+      path: /ms-coosalud-persona/v1/**
+      serviceId: MS-COOSALUD-PERSONA
+      stripPrefix: false
     ratelimit:
       enabled: false
       repository: IN_MEMORY
