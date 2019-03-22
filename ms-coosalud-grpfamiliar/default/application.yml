@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://10.40.4.79:5432/Coosalud_desa
-    username: Coosalud
-    password: Coosalud_desa
+    url: jdbc:postgresql://10.40.4.79:5432/coosalud-qa
+    username: coosalud-qa
+    password: coosalud-qa
   jpa:
     hibernate:
       ddl-auto: none
