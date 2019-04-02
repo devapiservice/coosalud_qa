@@ -33,6 +33,10 @@ zuul:
       path: /MedicionSaludFamiliarRN/v1/**
       serviceId: MS-COOSALUD-VISITA-DOM
       stripPrefix: false
+    ms-coosalud-saludfamiliar:
+      path: /MedicionSaludFamiliar/v1/**
+      serviceId: MS-COOSALUD-SALUDFAMILIAR
+      stripPrefix: false
     ratelimit:
       enabled: false
       repository: IN_MEMORY
