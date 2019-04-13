@@ -49,6 +49,22 @@ zuul:
       path: /ms-coosalud-remision/v1/**
       serviceId: MS-COOSALUD-REMISION
       stripPrefix: false
+    ms-coosalud-bebe:
+      path: /ms-coosalud-bebe/v1/**
+      serviceId: MS-COOSALUD-BEBE
+      stripPrefix: false
+    ms-coosalud-adolecente:
+      path: /ms-coosalud-adolecente/v1/**
+      serviceId: MS-COOSALUD-ADOLECENTE
+      stripPrefix: false
+    ms-coosalud-adulto:
+      path: /ms-coosalud-adulto/v1/**
+      serviceId: MS-COOSALUD-ADULTO
+      stripPrefix: false
+    ms-coosalud-mujer:
+      path: /ms-coosalud-mujer/v1/**
+      serviceId: MS-COOSALUD-MUJER
+      stripPrefix: false
     ratelimit:
       enabled: false
       repository: IN_MEMORY
