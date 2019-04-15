@@ -29,6 +29,10 @@ zuul:
       path: /ConsultaMedica/v1/**
       serviceId: MS-COOSALUD-CONSMED
       stripPrefix: false
+    ms-coosalud-embarazo:
+      path: /GestacionEmbarazoParto/v1/**
+      serviceId: MS-COOSALUD-EMBARAZO
+      stripPrefix: false
     ms-coosalud-visita-dom:
       path: /MedicionSaludFamiliarRN/v1/**
       serviceId: MS-COOSALUD-VISITA-DOM
