@@ -17,42 +17,6 @@ zuul:
       path: /ms-coosalud-visita/v1/**
       serviceId: MS-COOSALUD-VISITA
       stripPrefix: false
-    ms-coosalud-persona:
-      path: /ms-coosalud-persona/v1/**
-      serviceId: MS-COOSALUD-PERSONA
-      stripPrefix: false
-    ms-coosalud-grpfamiliar:
-      path: /ms-coosalud-grpfamiliar/v1/**
-      serviceId: MS-COOSALUD-GRPFAMILIAR
-      stripPrefix: false
-    ms-coosalud-consmed:
-      path: /ConsultaMedica/v1/**
-      serviceId: MS-COOSALUD-CONSMED
-      stripPrefix: false
-    ms-coosalud-embarazo:
-      path: /GestacionEmbarazoParto/v1/**
-      serviceId: MS-COOSALUD-EMBARAZO
-      stripPrefix: false
-    ms-coosalud-visita-dom:
-      path: /MedicionSaludFamiliarRN/v1/**
-      serviceId: MS-COOSALUD-VISITA-DOM
-      stripPrefix: false
-    ms-coosalud-saludfamiliar:
-      path: /MedicionSaludFamiliar/v1/**
-      serviceId: MS-COOSALUD-SALUDFAMILIAR
-      stripPrefix: false
-    ms-coosalud-vivienda:
-      path: /ms-coosalud-vivienda/v1/**
-      serviceId: MS-COOSALUD-VIVIENDA
-      stripPrefix: false
-    ms-coosalud-vacuna:
-      path: /ms-coosalud-vacuna/v1/**
-      serviceId: MS-COOSALUD-VACUNA
-      stripPrefix: false
-    ms-coosalud-remision:
-      path: /ms-coosalud-remision/v1/**
-      serviceId: MS-COOSALUD-REMISION
-      stripPrefix: false
     ms-coosalud-bebe:
       path: /ms-coosalud-bebe/v1/**
       serviceId: MS-COOSALUD-BEBE
@@ -69,9 +33,53 @@ zuul:
       path: /ms-coosalud-mujer/v1/**
       serviceId: MS-COOSALUD-MUJER
       stripPrefix: false
+    ms-coosalud-catalogo:
+      path: /ms-coosalud-catalogo/v1/**
+      serviceId: MS-COOSALUD-CATALOGO
+      stripPrefix: false
+    ms-coosalud-persona:
+      path: /ms-coosalud-persona/v1/**
+      serviceId: MS-COOSALUD-PERSONA
+      stripPrefix: false
+    ms-coosalud-grpfamiliar:
+      path: /ms-coosalud-grpfamiliar/v1/**
+      serviceId: MS-COOSALUD-GRPFAMILIAR
+      stripPrefix: false
+    ms-coosalud-vivienda:
+      path: /ms-coosalud-vivienda/v1/**
+      serviceId: MS-COOSALUD-VIVIENDA
+      stripPrefix: false
+    ms-coosalud-vacuna:
+      path: /ms-coosalud-vacuna/v1/**
+      serviceId: MS-COOSALUD-VACUNA
+      stripPrefix: false
+    ms-coosalud-remision:
+      path: /ms-coosalud-remision/v1/**
+      serviceId: MS-COOSALUD-REMISION
+      stripPrefix: false
     ms-coosalud-nino:
       path: /ms-coosalud-nino/v1/**
       serviceId: MS-COOSALUD-NINO
+      stripPrefix: false
+    ms-coosalud-saludfamiliar:
+      path: /MedicionSaludFamiliar/v1/**
+      serviceId: MS-COOSALUD-SALUDFAMILIAR
+      stripPrefix: false
+    ms-coosalud-embarazo:
+      path: /GestacionEmbarazoParto/v1/**
+      serviceId: MS-COOSALUD-EMBARAZO
+      stripPrefix: false
+    ms-coosalud-independiente:
+      path: /ms-coosalud-independiente/v1/**
+      serviceId: MS-COOSALUD-INDEPENDIENTE
+      stripPrefix: false
+    ms-coosalud-consmed:
+      path: /ConsultaMedica/v1/**
+      serviceId: MS-COOSALUD-CONSMED
+      stripPrefix: false
+    ms-coosalud-visita-dom:
+      path: /MedicionSaludFamiliarRN/v1/**
+      serviceId: MS-COOSALUD-VISITA-DOM
       stripPrefix: false
     ratelimit:
       enabled: false
