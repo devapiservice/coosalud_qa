@@ -81,10 +81,6 @@ zuul:
       path: /MedicionSaludFamiliarRN/v1/**
       serviceId: MS-COOSALUD-VISITA-DOM
       stripPrefix: false
-    web-coosalud:
-      path: /web-coosalud/v1/**
-      serviceId: WEB-COOSALUD
-      stripPrefix: false
     ratelimit:
       enabled: false
       repository: IN_MEMORY
