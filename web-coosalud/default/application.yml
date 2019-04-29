@@ -1,5 +1,0 @@
-eureka:
-  instance:
-    metadata-map:
-      management:
-        port: 9090
